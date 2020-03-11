@@ -22,9 +22,10 @@
 
 > 4. **Write a query to display the player names who haven't bagged the player of match award in the team `Real Madrid`. Display the records sorted in ascending order based on player name.**<br/>
 >
-> `Hint <br/>
-  Step 1:First retrieve the player name who have bagged player of match in the team 'Real Madrid') . <br/>
-  Step 2:Then retrieve player name who haven't bagged player of match using 'not in(step 1)'.`
+> `Hint
+>
+>  Step 1:First retrieve the player name who have bagged player of match in the team 'Real Madrid') .
+>  Step 2:Then retrieve player name who haven't bagged player of match using 'not in(step 1)'.`
 
 > 5. **Write a query to display the referee names who have not take part of any of the matches. Display the records sorted in ascending order based on referee name.**
 
