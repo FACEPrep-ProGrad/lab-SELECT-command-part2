@@ -1,6 +1,6 @@
 ![Image description](https://i1.faceprep.in/ProGrad/face-logo-resized.png)
 
-# ProGrad Lab | ProGrad Kabbadi League
+# ProGrad Lab | ProGrad Soccer League
 
 
 
@@ -8,48 +8,41 @@
 ![sql](https://user-images.githubusercontent.com/58466121/76389844-3c85d400-6392-11ea-875f-8cd9676219b2.JPG)
 
 
-![1 1](https://user-images.githubusercontent.com/61002120/76401843-8c6f9580-63a8-11ea-855b-be7a387d250b.png)
+![7 2](https://user-images.githubusercontent.com/61002120/76403951-b37b9680-63ab-11ea-95df-8e4a5d9f3f15.png)
 
 
 ## STEPS TO BE FOLLOWED
 
 
-> 1. **Write a query to display the team details. Display the records sorted in the order of team name.**
+> 1. **Write a query to display the name,coach,captain id of all the teams. Display the records sorted in descending order based on team name.**
 
-> 2. **Write a query to display the player details whose name starts with a letter `S` and who do not belong to the country 'South Africa'. Display the records sorted in descending order based on player name.**
+> 2. **Write a query to display all the details regarding the Country. Display the records sorted in order based on country name.**
 
-> 3. **Write a query to display the event number and the seconds taken for each event. Display the records sorted in ascending order based on event number.**
+> 3. **Write a query to display the players details who do not belong to the country `South Africa` and `India`. Display the records sorted in ascending order based on player name.**
 
-> 4. **Write a query to display the event numbers of those events which has sum of raid points and defending points greater than or equal to 3. Display the records sorted in ascending order based on event_no.**
+> 4. **Write a query to display the player names who haven't bagged the player of match award in the team `Real Madrid`. Display the records sorted in ascending order based on player name.**
+> `Hint 
+  Step 1:First retrieve the player name who have bagged player of match in the team 'Real Madrid') . 
+  Step 2:Then retrieve player name who haven't bagged player of match using 'not in(step 1)'.`
 
-> 5. **Write a query to display the name of all the players who belong to the country India or Iran. Display the records sorted in ascending order based on player name.**
+> 5. **Write a query to display the referee names who have not take part of any of the matches. Display the records sorted in ascending order based on referee name.**
 
-> 6. **Write a query to display the name of all the players who does not belong to the country India and Iran. Display the records sorted in ascending order based on player name.**
+> 6. **Write a query to display the name of the winning team in the game played on `2020-01-05`. Display the records sorted in ascending order based on team name.**
 
-> 7. **Write a query to display the names of all the skills that start with `Defend`. Display the records sorted in ascending order based on skill name.**
+> 7. **Write a query to display the Coach name of the team `Atletico Madrid`.**
 
-> 8. **Write a query to display all the stadium names that ends with `Complex`. Display the records sorted in ascending order based on stadium names.**
+> 8. **Write a query to display the home country of the team `FC Barcelona`.**
 
-> 9. **Write a query to display the winner team ids and the scores of those teams whose scores are less than 35. Display the records sorted in descending order based on outcome id.**
+> 9. **Write a query to display the player of the match in the game played on `2020-02-11`. Display the records sorted in ascending order based on player name.**
 
-> 10. **Write a query to display the game details of those games that were played between January and March of 2020. Display the records sorted in descending order based on id.**
+> 10. **Write a query to display the name of all the players in the team `FC Bayern Munich`. Display the records sorted in ascending order based on player name.**
 
-> 11. **Write a query to display the names of players who are Raiders. Display the records sorted in ascending order based on player name.**
+> 11. **Write a query to display the Captain of the team `Chelsea FC`.**
 
-> 12. **Write a query to display the event number, raid points and defence points scored in the first innings of the game that was played on `2020-01-26`. Display the records sorted in ascending order based on event number.**
+> 12. **Write a query to display the teams those which hasn't won any of the PSL matches. Display the records sorted in ascending order based on team name. `[HINT:select winner_team_id which is not null]`**
 
-> 13. **Write a query to display the name of the winner team in the game played on `2020-03-09`. Display the records sorted in ascending order based on team name.**
+> 13. **Write a query to display the names of teams that has won matches in the month of January 2020. Display the records sorted in ascending order based on team name.**
 
-> 14. **Write a query to display the names of players who were the player of the match in the game played on 2020-03-09'. Display the records sorted in ascending order based on player name.**
+> 14. **Write a query to display the name of the player who is an All Rounder and has won the player of the match award. Display the records sorted in ascending order based on player name.**
 
-> 15. **Write a query to display the names of players who are All rounders. Display the records sorted in ascending order based on player name.**
-
-> 16. **Write a query to display the venue names for all the games that were played on `2020-03-09`. Display the records sorted in ascending order based on venue name.**
-
-> 17. **Write a query to display the Coach's name of the team `Iran`**
-
-> 18. **Write a query to display the event number and the defence points of `Fazel Atrachali` in each event. Display the records sorted in ascending order based on event number.**
-
-> 19. **Write a query to display the names of the Winning teams in the month of March 2020. Display the records sorted in ascending order based on team name.**
-
-> 20. **Write a query to display the names of players who were the player of the match in the games held in March 2020. Display the records sorted in ascending order based on player name.**
+> 15. **Write a query to display the names of the team which have won the PSL tournament. Display the records sorted in ascending order based on team name.**
