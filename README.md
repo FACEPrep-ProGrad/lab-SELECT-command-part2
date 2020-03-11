@@ -32,7 +32,7 @@
 
 > 7. **Write a query to display the Coach name of the team `Atletico Madrid`.**
 
-> 8. **Write a query to display the Coach country of the team `FC Barcelona`.**
+> 8. **Write a query to display the Coach name of the team `FC Barcelona`.**
 
 > 9. **Write a query to display the player of the match in the game played on `2020-02-11`. Display the records sorted in ascending order based on player name.**
 
