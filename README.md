@@ -3,7 +3,35 @@
 # ProGrad Lab | ProGrad Premier League
 
 
+## What Should You Do
+```
+Go to Oracle SQL Developer and connect to SYSTEM schema or hr schema.
+Start writing your queries in the query builder.
+Save the .sql file and upload it in github.
+Practice Oracle SQL - DDL Statements.
+```
 
+## How To Submit
+```
+Upon completion, run the following commands:
+
+git add .
+git commit -m "ProGrad ID"
+git push origin master
+
+And finally, create a pull request so your ProGrad Mentor (PM) can review your work.
+```
+
+## Instructions
+
+1. ***Do not erase the existing queries.***
+2. ***Use the same file to write all your queries.***
+3. ***Select the entire query and run it to see the output.***
+4. ***Save the file as your_file_name.sql and upload it in github.***
+5. ***Refer dml-select-2.sql file.*** 
+
+## Requirements
+Oracle 11g Express edition and Oracle SQL Developer
 
 ![sql](https://user-images.githubusercontent.com/58466121/76389844-3c85d400-6392-11ea-875f-8cd9676219b2.JPG)
 
