@@ -48,7 +48,7 @@ And finally, create a pull request so your ProGrad Mentor (PM) can review your w
 2. Write a query to display all the details regarding the Country. Display the records sorted in order based on country name.
 3. Write a query to display the players details who do not belong to the country `South Africa` and `India`. Display the records sorted in ascending order based on player name.
 4. Write a query to display the player names who haven't bagged the player of match award in the team `India`. Display the records sorted in ascending order based on player name.<br/>
->
+
 >    `Hint`
 >    `Step 1:First retrieve the player name who have bagged player of match in the team 'India')`
 >    `Step 2:Then retrieve player name who haven't bagged player of match using 'not in(step 1)'`
