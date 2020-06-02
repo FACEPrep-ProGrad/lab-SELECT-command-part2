@@ -2,34 +2,62 @@
 
 -- 1. **Write a query to display the name,coach,captain id of all the teams. Display the records sorted in descending order based on team name.**
 
+SELECT DISTINCT id,name,coach,teamcaptain FROM team
+ORDER BY name DESC;
 -- 2. **Write a query to display all the details regarding the Country. Display the records sorted in order based on country name.**
-
+SELECT * FROM player
+ORDER BY country;
 -- 3. **Write a query to display the players details who do not belong to the country `South Africa` and `India`. Display the records sorted in ascending order based on player name.**
-
+SELECT * FROM player
+Where country !='South Africa' AND country !='India'
+ORDER BY name ASC;
 -- 4. **Write a query to display the player names who haven't bagged the player of match award in the team `India`. Display the records sorted in ascending order based on player name.**<br/>
 --
 --    `Hint`
 --    `Step 1:First retrieve the player name who have bagged player of match in the team 'India')`
 --    `Step 2:Then retrieve player name who haven't bagged player of match using 'not in(step 1)'`
+SELECT name FROM OUTCOME
+Where player_of_match =NULL
+ORDER BY name ASC;
 
 -- 5. **Write a query to display the Umpire names who have not take part of any of the matches. Display the records sorted in ascending order based on umpire name.**
-
+SELECT name FROM UMPIRE
+Where matches=NULL
+ORDER BY name ASC;
 -- 6. **Write a query to display the name of the winning team in the game played on `2020-01-05`. Display the records sorted in ascending order based on team name.**
+SELECT team_name FROM GAME
+WHERE game_date=TO_DATE('2020-01-05','YYYY-MM-DD')
+ORDER BY team_name ASC;
 
 -- 7. **Write a query to display the Coach name of the team `Bangladesh`.**
+SELECT coach FROM team
+WHERE name='Bangladesh';
 
 -- 8. **Write a query to display the Coach name of the team `Pakistan`.**
-
+SELECT coach FROM team
+WHERE name='Pakistan';
 -- 9. **Write a query to display the player of the match in the game played on `2020-02-11`. Display the records sorted in ascending order based on player name.**
-
+SELECT player_of_match FROM OUTCOME
+WHERE date=TO_DATE('2020-01-05','YYYY-MM-DD')
+ORDER BY player_name ASC;
 -- 10. **Write a query to display the name of all the players in the team `Ireland`. Display the records sorted in ascending order based on player name.**
-
+SELECT DISTINCT name FROM player
+Where country='Ireland'
+ORDER BY name ASC;
 -- 11. **Write a query to display the Captain of the team `Afghanistan`.**
+SELECT DISTINCT teamcaptain FROM team
+WHERE country='Afghanistan';
 
 -- 12. **Write a query to display the teams those which hasn't won any of the PPL matches. Display the records sorted in ascending order based on team name. `[HINT:select winner_team_id which is not null]`**
+SELECT team FROM OUTCOME
+WHERE winner_team_id!=NULL
+ORDER BY team ASC;
 
 -- 13. **Write a query to display the names of teams that has won matches in the month of January 2020. Display the records sorted in ascending order based on team name.**
 
 -- 14. **Write a query to display the name of the player who is an All Rounder and has won the player of the match award. Display the records sorted in ascending order based on player name.**
 
 -- 15. **Write a query to display the names of the team which have won the PPL tournament. Display the records sorted in ascending order based on team name.**
+SELECT team FROM OUTCOME
+WHERE winner_team_id!=NULL
+ORDER BY team ASC;
